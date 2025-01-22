@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-bg{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(121,9,9,1) 0%, rgba(109,122,12,1) 48%, rgba(20,80,127,1) 100%, rgba(255,255,255,0.8305788868281687) 100%);
+}
+.test{
+    background-color: red;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/output.css">
+</head>
+<body>
+    <div class="container mx-auto flex flex-col items-center space-y-4 p-10">
+        <div class="default-component p-4 rounded bg-gray-300 border">
+            Дефолтний блок
+        </div>
+        <div class="bg-default-backgroud text-default-text p-4 rounded  border">
+            Дефолтний блок custom
+        </div>
+        <div class="light-component dark:hidden p-4 rounded border">
+            Світла тема
+        </div>
+        <div class="bg-light-backgroud text-light-text dark:hidden p-4 rounded border">
+            Світла тема custom
+        </div>
+        <div class="dark-component hidden dark:block p-4 rounded border bg-gray-800 text-white">
+            Темна тема
+        </div>
+        <div class="bg-dark-backgroud text-dark-text hidden dark:block p-4 rounded border ">
+            Темна тема custom
+        </div>
+    </div>
+    <!-- https://www.figma.com/design/AQtBhmWEI5QPOiH29eJAev/Pomodoro-File-Playground-File-(Copy)?node-id=0-1&p=f&t=FgzoHDWLDzzzNNZF-0 -->
+    <!-- https://tailwindcss.com/docs/theme -->
+</body>
+</html>
